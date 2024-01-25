@@ -1,0 +1,114 @@
+.BuyersStock {
+  height: 100vh;
+  width: 100%;
+}
+
+.wrapper {
+  padding: 5px 25px;
+}
+
+.wrapper_box {
+  display: flex;
+  gap: 6px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+
+  &1 {
+    color: #42bbff;
+    background-color: #161717;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px 7px 0 0;
+  }
+
+  &2 {
+    color: #adb3cc;
+    background-color: #242424;
+    height: 40px;
+    width: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px 7px 0 0;
+    box-shadow: 0px 2px 2px 2px rgba(3, 3, 3, 0.2) inset;
+  }
+
+  &3 {
+    color: #adb3cc;
+    background-color: #242424;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0px 2px 2px 2px rgba(3, 3, 3, 0.2) inset;
+  }
+}
+
+.container {
+  height: 390px;
+  width: 100%;
+  background-color: #161717;
+  border-radius: 0 5px 5px 5px;
+  box-shadow: 0px 0px 5px 2px rgba(3, 3, 3, 0.1) inset;
+  padding: 30px;
+}
+
+.ul_style {
+  color: #e6e6e6;
+}
+
+.li_title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.li_text {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.reg {
+  margin-top: 1.5rem;
+  padding: 5px 30px;
+  height: 41px;
+  width: 20%;
+  background-color: #0000;
+  border: 1px solid #42bbff;
+  color: #42bbff;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reg:hover {
+  margin-top: 1.5rem;
+  padding: 5px 30px;
+  height: 41px;
+  width: 20%;
+  color: #090808;
+  background-color: #e6e6e6;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}

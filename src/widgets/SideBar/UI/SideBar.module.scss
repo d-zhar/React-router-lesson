@@ -1,0 +1,69 @@
+.SideBar {
+  height: 100vh;
+  width: 290px;
+  padding: 40px 22px 28px 30px;
+  border-right: solid 1px #262835;
+  box-shadow: inset -0.5rem 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.Sidebar_style {
+  color: white;
+  margin-top: 50px;
+  padding-bottom: 2rem;
+  flex-direction: column;
+  border-bottom: 0.68px dashed #55597d79;
+
+  &:last-child {
+    border: none;
+  }
+}
+
+.title {
+  color: #55597d;
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  color: #adb3cc;
+  margin-bottom: 1.8rem;
+}
+
+.listItem_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.listItem_box_border {
+  font-size: 14px;
+  font-weight: 500;
+  color: #42bbff;
+  padding: 2px 6px 2px 6px;
+  border-radius: 26px;
+  background-color: #0c3247;
+  border: none;
+}
+
+.text_style {
+  font-size: 14px;
+  font-weight: 500;
+  color: #adb3cc;
+  cursor: pointer;
+}
+
+.text_style:hover {
+  font-size: 14px;
+  font-weight: 600;
+  color: #42bbff;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+a {
+  text-decoration: none;
+}

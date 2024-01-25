@@ -1,0 +1,31 @@
+.ButtonLogin2 {
+}
+
+.reg {
+  margin-top: 1.5rem;
+  padding: 5px 30px;
+  height: 41px;
+  width: 100%;
+  background-color: #0000;
+  border: 1px solid #42bbff;
+  color: #42bbff;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reg:hover {
+  margin-top: 1.5rem;
+  padding: 5px 30px;
+  height: 41px;
+  width: 100%;
+  color: #ffff;
+  background-color: #e6e6e6;
+  border: none;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.4s;
+}

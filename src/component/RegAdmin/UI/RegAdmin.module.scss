@@ -1,0 +1,110 @@
+.RegAdmin {
+  margin: 2rem 2rem;
+  display: flex;
+  height: 487px;
+  width: 679px;
+  background-color: #161717;
+  border-radius: 30px;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.tittle {
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.input_style {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.name_style {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.name {
+  height: 25px;
+  color: #ffff;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 0.6rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.input {
+  height: 41px;
+  width: 283px;
+  margin-top: 0.5rem;
+  border-radius: 16px;
+  border: none;
+  background-color: #00000080;
+  color: #ffff;
+  padding-left: 1rem;
+}
+
+.checkbox_style {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.checkbox_text {
+  font-size: 10px;
+  font-weight: 300;
+  margin-left: 0.7rem;
+  color: #ffffff5a;
+}
+
+.client_agreement {
+  font-size: 10px;
+  font-weight: 400;
+  color: #42bbff;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  text-decoration: none;
+}
+
+.button_style {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button_style_box {
+  height: 41px;
+  width: 283px;
+}
+
+.support {
+  margin-top: 3rem;
+  flex-direction: column;
+}
+
+.support_line2 {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.support_text_style {
+  font-size: 10px;
+  font-weight: 300;
+  color: #ffffff5a;
+}
+
+.support_link {
+  font-size: 10px;
+  font-weight: 400;
+  color: #42bbff;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  text-decoration: none;
+}

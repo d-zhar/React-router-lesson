@@ -1,0 +1,29 @@
+.SwitchLang {
+  display: flex;
+  justify-content: center;
+}
+
+.SwitchLang_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.SwitchLang_text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.triangle {
+  width: 10px;
+  height: 8px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 8px solid #fff;
+  margin-left: 8px;
+}

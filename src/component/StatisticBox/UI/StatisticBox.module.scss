@@ -1,0 +1,71 @@
+.StatisticBox {
+  height: 271px;
+  width: 90%;
+  margin-top: 10px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 85%;
+}
+
+.tittle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.tittle_text {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #585f80;
+}
+
+.calendar_style {
+  height: 20px;
+  width: 170px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.calendar_text {
+  font-size: 10px;
+  font-weight: 400;
+  color: #adb3cc;
+  text-transform: uppercase;
+}
+
+.card_style {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.next {
+  height: 20px;
+  width: 50px;
+  color: #42bbff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.arrow_style {
+  width: 70px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  :hover {
+    color: black;
+  }
+}
+
+// #cell {
+//   color: green;
+// }

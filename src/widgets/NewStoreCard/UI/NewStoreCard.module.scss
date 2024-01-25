@@ -1,0 +1,103 @@
+.NewStoreCard {
+  height: 100vh;
+  width: 100%;
+}
+
+.wrapper {
+  margin: 25px;
+  height: 769px;
+  background-color: #161717;
+  border-radius: 25px;
+  box-shadow: 0px 0px 8px 8px rgba(12, 12, 12, 0.8) inset;
+  display: flex;
+}
+
+.sidebar {
+  padding: 35px 25px;
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.style_text {
+  display: flex;
+  align-content: center;
+  margin-bottom: 5px;
+}
+
+.tittle_text {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.star {
+  margin-left: 5px;
+  color: #f21010;
+}
+
+.input_style {
+  height: 41px;
+  width: 283px;
+  background-color: #000000;
+  border-radius: 25px;
+  color: white;
+  padding-left: 15px;
+  padding-right: 10px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.tittle_text1 {
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.card_style {
+  width: 100%;
+  padding: 35px 25px;
+  color: white;
+  font-size: 14px;
+  flex-direction: column;
+}
+
+.card_style_box {
+  margin-top: 20px;
+  padding: 50px;
+  height: 384px;
+  width: 100%;
+  background-color: #161717;
+  border-radius: 25px;
+  box-shadow: 0px 0px 8px 8px rgba(12, 12, 12, 0.8) inset;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.card_style2 {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card_style_box2 {
+  height: 128px;
+  width: 30%;
+  background-color: #161717;
+  border-radius: 25px;
+  box-shadow: 0px 0px 8px 8px rgba(12, 12, 12, 0.8) inset;
+}
+
+.button {
+  margin-top: 60px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}

@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  color: white;
+
+  background-color: #070808;
+  padding: 1.4rem;
+  border-radius: 25px;
+  height: 197px;
+  width: 400px;
+  transition: background-color 0.3s, color 0.3s;
+
+  &Header {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &Tittle {
+    font-size: 20px;
+  }
+
+  &Tittle2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #585f80;
+  }
+
+  &Value {
+    font-size: 58px;
+    font-weight: 600;
+  }
+
+  &:hover {
+    background-color: #42bbff;
+    color: black;
+  }
+}

@@ -1,0 +1,36 @@
+.LineOutletId {
+  height: 45px;
+  color: white;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 80px 100px 120px 120px 130px 120px 150px;
+  grid-template-rows: 35px;
+  border-bottom: 2.4px solid rgba(0, 0, 0, 0.494);
+  align-items: center;
+  column-gap: 55px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.form1 {
+  justify-content: center;
+  padding: 8px 10px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.name {
+  width: 40px;
+  font-size: 14px;
+  color: #42bbff;
+  text-decoration: underline;
+}
+
+.data {
+  width: 40px;
+  font-size: 14px;
+}

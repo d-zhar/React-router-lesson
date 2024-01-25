@@ -1,0 +1,33 @@
+.LineOutletBuyers {
+  height: 45px;
+  color: white;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 90px 90px 200px 180px 180px 100px;
+  grid-template-rows: 35px;
+  border-bottom: 2.4px solid rgba(0, 0, 0, 0.494);
+  align-items: center;
+  column-gap: 55px;
+}
+
+.name {
+  width: 40px;
+  font-size: 14px;
+  color: #42bbff;
+  text-decoration: underline;
+  padding-left: 20px;
+}
+
+.telephone {
+  width: 40px;
+  font-size: 14px;
+  color: #42bbff;
+  text-decoration: underline;
+}
+
+.data {
+  width: 40px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}

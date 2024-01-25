@@ -1,0 +1,42 @@
+.LineBuyers {
+  height: 45px;
+  color: white;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 90px 80px 110px 175px 170px 170px 180px;
+  grid-template-rows: 35px;
+  border-bottom: 2.4px solid rgba(0, 0, 0, 0.494);
+  align-items: center;
+  column-gap: 55px;
+}
+
+.name {
+  width: 40px;
+  font-size: 14px;
+  color: #42bbff;
+  text-decoration: underline;
+  padding-left: 20px;
+}
+
+.telephone {
+  width: 40px;
+  font-size: 14px;
+  color: #42bbff;
+  text-decoration: underline;
+}
+
+.data {
+  width: 40px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.form1 {
+  justify-content: center;
+  padding: 8px 10px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}

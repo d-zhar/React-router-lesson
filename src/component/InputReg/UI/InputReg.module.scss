@@ -1,0 +1,29 @@
+.InputReg {
+}
+
+.name_style {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.name {
+  height: 25px;
+  color: #ffff;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 0.6rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.input {
+  height: 41px;
+  width: 283px;
+  margin-top: 0.5rem;
+  border-radius: 16px;
+  border: none;
+  background-color: #00000080;
+  color: #ffff;
+  padding-left: 1rem;
+}

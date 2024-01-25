@@ -1,0 +1,83 @@
+.Buyers {
+  height: 100vh;
+  width: 100%;
+}
+
+.wrapper {
+  padding: 25px;
+}
+
+.container {
+  height: 760px;
+  width: 100%;
+  background-color: #161717;
+  border-radius: 0 5px 5px 5px;
+  box-shadow: 0px 0px 5px 2px rgba(3, 3, 3, 0.1) inset;
+  padding: 30px;
+}
+
+.container_box {
+  height: 730px;
+  width: 100%;
+  background-color: #00000030;
+  border-radius: 24px;
+}
+
+.tittle_line {
+  height: 50px;
+  color: white;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 90px 120px 100px 145px 180px 170px 200px;
+  border-bottom: 2.4px solid rgba(0, 0, 0, 0.494);
+  column-gap: 40px;
+}
+
+span {
+  font-size: 16px;
+  padding: 15px;
+}
+
+.list_pages {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 17px;
+  gap: 15px;
+  color: white;
+}
+
+.graph_box {
+  margin-top: 20px;
+  height: 363px;
+  width: 100%;
+  background-color: #050505;
+  border-radius: 24px;
+}
+
+.reg {
+  padding: 5px 30px;
+  height: 41px;
+  width: 173px;
+  background-color: #0000;
+  border: 1px solid #42bbff;
+  color: #42bbff;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reg:hover {
+  padding: 5px 30px;
+  height: 41px;
+  width: 173px;
+  color: #090808;
+  background-color: #e6e6e6;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.4s;
+}

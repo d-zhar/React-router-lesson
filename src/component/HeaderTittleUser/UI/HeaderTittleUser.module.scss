@@ -1,0 +1,67 @@
+.HeaderTittleUser {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  padding: 25px;
+  background-color: #1d1c1c;
+  border-radius: 5px;
+}
+
+.tittle_text {
+  margin-left: 7px;
+  color: #adb3cc;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.user_bar {
+  display: flex;
+  gap: 15px;
+}
+
+.avatar_style {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #42bbff;
+}
+
+.user_bar_style {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.welcome_text {
+  font-size: 10px;
+  font-weight: 400;
+  color: #55597d;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.user_style {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.user_text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff81;
+}
+
+.triangle {
+  border: 8px solid transparent;
+  border-top: 9px solid #adb3cc;
+  border-radius: 40%;
+  background-color: none;
+  margin-left: 10px;
+  cursor: pointer;
+
+  &:hover {
+    border-top: 9px solid #ae0c0c;
+    transition: 0.5s;
+  }
+}
